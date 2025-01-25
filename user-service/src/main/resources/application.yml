@@ -16,3 +16,8 @@ eureka:
         defaultZone: http://localhost:8761/eureka
     register-with-eureka: true
     fetch-registry: true
+
+bcrypt:
+  strength: ${secrets.password.encoder.strength}
+jwt:
+  secret: ${secrets.jwt.secret}
