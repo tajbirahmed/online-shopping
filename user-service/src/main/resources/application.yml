@@ -19,3 +19,5 @@ eureka:
 
 bcrypt:
   strength: ${secrets.password.encoder.strength}
+jwt:
+  secret: ${secrets.jwt.secret}
